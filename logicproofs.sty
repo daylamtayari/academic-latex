@@ -1,0 +1,31 @@
+% Identification
+\NeedsTexFormat{LaTeX2e}
+\ProvidesPackage{logicproofs}[2022/08/28 v0.1 Provides supports Conjuction commands for logic proofs (particularly Fitch-style proofs) and boolean algebra.]
+
+% Required packages
+\RequirePackage{amsmath}
+\RequirePackage{logicproof}
+\RequirePackage{qtree}
+\RequirePackage{karnaugh-map}
+
+% Commands for abbreviated logic proof rules
+\newcommand{\assum}{assumption}     % Assumption
+\newcommand{\p}{premise}            % Premise
+\newcommand{\rit}{reiteration }     % Reiteration
+\newcommand{\aeo}{$\land_{e_1}$ }   % Conjuction-elimination 1
+\newcommand{\aet}{$\land_{e_2}$ }   % Conjuction-elimination 2
+\newcommand{\ai}{$\land_i$ }        % Conjuction-introduction
+\newcommand{\ie}{$\implies_e$ }     % Implication-elimination
+\newcommand{\ii}{$\implies_i$ }     % Implication-introduction
+\newcommand{\nei}{$\neg_{i}$ }      % Negation-introduction
+\newcommand{\nee}{$\neg_{e}$ }      % Negation-elimination
+\newcommand{\dni}{$\neg \neg_{i}$ } % Double-negation introduction
+\newcommand{\dne}{$\neg \neg_{e}$ } % Double-negation elimation
+\newcommand{\be}{$\bot_{e}$ }       % Contradiction-elimination
+\newcommand{\dio}{$\lor_{i1}$ }     % Disjunction-introduction 1
+\newcommand{\dit}{$\lor_{i2}$ }     % Disjunction-introduction 2
+\newcommand{\de}{$\lor_{e}$ }       % Disjunction-elimination
+\newcommand{\fai}{$\forall_{i}$ }   % Forall-introduction
+\newcommand{\fae}{$\forall_{e}$ }   % Forall-elimination
+\newcommand{\ei}{$\exists_{i}$ }    % Exists-introduction
+\newcommand{\ee}{$\exists_{e}$ }    % Exists-elimination

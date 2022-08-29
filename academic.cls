@@ -94,7 +94,8 @@
 
             {\large \acassign}
 
-            {\acname{} (\acid)}
+            {\acname{}} \\
+            {(\acid{})}
 
             \acdate{}
         \end{center}
@@ -110,7 +111,8 @@
 
             {\large \acassign}
 
-            {\acname (\acid)}
+            {\acname} \\
+            {(\acid{})}
 
             \acdate{}
         \end{center}

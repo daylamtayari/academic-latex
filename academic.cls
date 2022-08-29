@@ -42,7 +42,7 @@
 \RequirePackage{steinmetz}                  % Steinmetz notation support
 
 % Tables and Lists
-\RequirePackage{tabularray}               % Tables
+\RequirePackage{tabularray}                 % Tables
 \RequirePackage{enumitem}                   % List handlings
 
 % Media Handling
@@ -56,7 +56,7 @@
 \RequirePackage[all]{xy}                    % Diagrams
 \RequirePackage[siunitx]{circuitikz}        % Circuit diagrams
 \RequirePackage{gnuplottex}                 % GNU Plot Graphs
-\RequirePackage{tikz}
+\RequirePackage{tikz}                       % Tikz diagrams
 
 % Colors and beautification
 \RequirePackage{xcolor}                     % Fancy colours
@@ -64,7 +64,7 @@
 
 % Conditionals
 \RequirePackage{ifthen}                     % Conditionals
-\RequirePackage{suffix}
+\RequirePackage{suffix}                     % Suffix macros
 
 
 % ----- Page Setup -----

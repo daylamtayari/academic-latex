@@ -28,6 +28,7 @@
 \RequirePackage{geometry}                   % Page sizing
 \RequirePackage{fancyhdr}                   % Page layout
 \RequirePackage{setspace}                   % Spacing
+\RequirePackage{lastpage}                   % Allows the creation of a last page.
 
 % Math and scientific characters
 \RequirePackage{amsmath}                    % Math characters and symbols
@@ -149,7 +150,7 @@
   % Wrap in minipage so that we don't get a line break enywhere in between
   \begin{minipage}{\linewidth}%
     \stepcounter{questionCounter}%
-      \vspace{.4in}%
+      \vspace{2em}%
       \ifx\writtensection\undefined{}
         \noindent{\bf \questiontype\ \arabic{questionCounter}.}%
         \else
@@ -173,7 +174,7 @@
   \begin{minipage}{\linewidth}%
     \addtocounter{questionCounter}{1}%
     \setcounter{partCounter}{0}%
-    \vspace{.4in}%
+    \vspace{2em}%
     \noindent{\bf \arabic{questionCounter}. #1}%
     \vspace{0.3em} \hrule \vspace{.1in}%
   \end{minipage}

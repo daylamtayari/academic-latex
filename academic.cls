@@ -180,10 +180,6 @@
   \end{minipage}
 }
 
-% Override normal section defintions
-\renewcommand{\section}[0]{\question}
-\WithSuffix\newcommand\section*[1]{\question*{#1}}
-
 % ----- Question Parts --------------------------------------------------------
 
 \newenvironment{alphaparts}[0]{%

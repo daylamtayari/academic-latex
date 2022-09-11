@@ -84,7 +84,7 @@
 % ----- Header Setup -----
 \ifthenelse{\equal{\@optitlepage}{0}}{
     \renewcommand{\maketitle}[0]{
-        \setlength{\headerheight}{15.2pt}
+        \setlength{\headheight}{15.2pt}
         \setlength{\headsep}{0.2in}
         \renewcommand{\headrulewidth}{0pt}
         \headrule{}

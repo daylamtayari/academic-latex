@@ -90,14 +90,14 @@
         \headrule{}
         \thispagestyle{plain}
         \begin{center}
-            {\Large \acclass{}}
+            {\Large \textbf{\acclass{}}}
 
-            {\large \acassign}
+            {\Large \textbf{\acassign}}
 
-            {\acname{}} \\
-            {(\acid{})}
+            {\Large \acname{}} \\
+            {\large (\acid{})}
 
-            \acdate{}
+            {\Large \acdate{}}
         \end{center}
         \vspace{0.3in}
         \renewcommand{\headrulewidth}{0.4pt}
@@ -107,14 +107,14 @@
     \renewcommand{\maketitle}[0]{
         \pagestyle{plain}
         \begin{center}
-            {\Large \acclass{}}
+            {\Large \textbf{\acclass{}}}
 
-            {\large \acassign}
+            {\Large \textbf{\acassign}}
 
-            {\acname} \\
-            {(\acid{})}
+            {\Large \acname{}} \\
+            {\large (\acid{})}
 
-            \acdate{}
+            {\Large \acdate{}}
         \end{center}
         \renewcommand{\headrulewidth}{0.4pt}
         \newpage
